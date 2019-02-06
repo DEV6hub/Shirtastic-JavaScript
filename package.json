@@ -1,0 +1,14 @@
+{
+  "name": "shirtastic-javascript-app",
+  "version": "1.0.0",
+  "description": "Shirtastic Javscript App",
+  "scripts": {
+    "start": "light-server -s . -p 7070 -w \"assets/app/**/*.js, assets/screens/**/*.html, assets/css/**/*.css, assets/index.html, assets/app.js\""
+  },
+  "keywords": [],
+  "author": "gagank@dev6.com",
+  "license": "ISC",
+  "dependencies": {
+    "light-server": "^2.6.0"
+  }
+}
